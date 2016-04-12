@@ -17,7 +17,7 @@
 <body>
 	<div id="container">
 		<h1>Registration...</h1>
-		<form action="Process.php" method="post">
+		<form action="Process.php"  enctype = 'multipart/form-data' method="post">
 			<label for="First_Name">First Name: *</label>
 			<input type="text" id="First_Name" placeholder="First Name" name="First_Name" autofocus />
 			<label for="Last_Name">Last Name: *</label>

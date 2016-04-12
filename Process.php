@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 session_start();
 
+// var_dump($_FILES), will get you your file;
 
-$_SESSION['formInfo'] = array();
 foreach ($_POST as $key => $value) {
 	$_SESSION['formInfo'][$key] = $value;
 }
